@@ -6,15 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RxJS Demo</title>
     <style>
-        body { font-family: 'Arial'; background: lightgray }
-        ul { list-style-type: none; padding: 20px; }
-        li { padding: 15px; background: lightcoral; margin-bottom: 10px; }
+        body {
+            font-family: 'Arial';
+            background: lightgray
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 20px;
+        }
+
+        li {
+            padding: 15px;
+            background: lightcoral;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto
+        }
     </style>
 </head>
 <body>
 <h1>RxJS Demo</h1>
 <div>
     <button>Click!!!</button>
+    <h4 id="label">-</h4>
     <ul id="list"></ul>
 </div>
 <script src="/bundle.js"></script>
